@@ -1,60 +1,47 @@
 # 🌱 Mango Production Prediction Model
 
-This project is a machine learning model that predicts mango production based on environmental conditions such as temperature, humidity, soil quality, fertilizer, and noise.
+A machine learning project that predicts mango production based on environmental factors.
 
-## 📍 Project Location
+---
+
+## 📍 Location
 Ismailia, Egypt
 
 ---
 
 ## 🎯 Objective
-To analyze how different environmental factors affect mango production and build a predictive model using machine learning techniques.
+To analyze how environmental conditions affect mango production and build a predictive model using Python and Machine Learning.
 
 ---
 
-## 📊 Dataset
-- Synthetic dataset generated using NumPy
-- 50 samples
-- Features:
-  - Soil Quality
-  - Humidity
-  - Temperature
-  - Fertilizer
-  - Noise
+## 📊 Features
+- Soil Quality
+- Humidity
+- Temperature
+- Fertilizer
+- Noise
+- Feature Engineering (Temperature², Humidity²)
 
 ---
 
-## 🧠 Methodology
-- Data generation using NumPy
-- Exploratory Data Analysis (EDA)
-- Feature Engineering (Polynomial features: Temperature², Humidity²)
-- Linear Regression model using Scikit-learn
-- Model evaluation using R² Score
+## 🧠 Model
+- Linear Regression (Scikit-learn)
+- Train/Test Split
+- Feature Engineering for nonlinear relationships
 
 ---
 
 ## 📈 Results
-- Model achieved good predictive performance
-- Key findings:
-  - Soil quality has the strongest positive impact
-  - Temperature has a negative nonlinear effect
-  - Fertilizer has moderate influence
+- R² Score: ~0.99
+- Strong influence: Soil Quality
+- Negative effect: Temperature
 
 ---
 
-## 🛠️ Tools & Libraries
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
+## 🛠 Tools
+Python, Pandas, NumPy, Matplotlib, Scikit-learn
 
 ---
 
-## 📌 Conclusion
-This project demonstrates how machine learning can be used to model agricultural production and understand environmental impacts on crop yield.
-
----
-
-## 🔗 Author
+## 👤 Author
 Hany Atya
