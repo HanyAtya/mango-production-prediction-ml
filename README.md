@@ -2,7 +2,7 @@
 
 # 🌱 Mango Production Prediction Model
 
-A machine learning project that predicts mango production based on environmental factors.
+A machine learning project that predicts mango production in smart agriculture based on environmental factors.
 
 ---
 
