@@ -39,6 +39,11 @@ To analyze how environmental conditions affect mango production and build a pred
 - Negative effect: Temperature
 
 ---
+## 📈 Model Performance
+
+![Model Result](Actual_vs_Predicted.png)
+
+---
 
 ## 🛠 Tools
 Python, Pandas, NumPy, Matplotlib, Scikit-learn
