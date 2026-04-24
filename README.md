@@ -1,3 +1,5 @@
+![Mango Project Banner](mango_banner.png)
+
 # 🌱 Mango Production Prediction Model
 
 A machine learning project that predicts mango production based on environmental factors.
