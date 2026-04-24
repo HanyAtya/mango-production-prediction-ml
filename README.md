@@ -1,4 +1,4 @@
-![Mango Project Banner](mango_banner.png)
+![Mango Project Banner](mango_banner.jpg)
 
 # 🌱 Mango Production Prediction Model
 
