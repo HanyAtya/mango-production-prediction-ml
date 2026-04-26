@@ -1,52 +1,74 @@
 ![Mango Project Banner](mango_banner.jpg)
 
-# 🌱 Mango Production Prediction Model
+# Mango Yield Prediction using Machine Learning for Smart Agriculture
 
-A machine learning project that predicts mango production in smart agriculture based on environmental factors.
+## Overview
+This project aims to predict mango production based on environmental factors such as temperature, humidity, and rainfall using machine learning techniques.
 
----
-
-## 📍 Location
-Ismailia, Egypt
+It represents an application of data science in **Digital Agriculture (Smart Farming) ** to support decision-making and optimize crop yield.
 
 ---
 
-## 🎯 Objective
-To analyze how environmental conditions affect mango production and build a predictive model using Python and Machine Learning.
+## Problem Statement
+Crop yield prediction is a critical challenge in agriculture, as environmental conditions directly impact productivity.
+
+Farmers need data-driven tools to:
+- Estimate production in advance
+- Optimize irrigation and resource planning
+- Reduce uncertainty in farming decisions
 
 ---
 
-## 📊 Features
-- Soil Quality
-- Humidity
-- Temperature
-- Fertilizer
-- Noise
-- Feature Engineering (Temperature², Humidity²)
+## Dataset
+- Synthetic dataset (for learning purposes)
+  
+- Features:
+  
+  - Temperature
+  - Humidity
+  - Rainfall
+    
+- Target:
+  - Mango yield
 
 ---
 
-## 🧠 Model
-- Linear Regression (Scikit-learn)
-- Train/Test Split
-- Feature Engineering for nonlinear relationships
+##  Methodology
+- Data preprocessing and analysis using Pandas
+- Feature engineering (e.g., nonlinear relationships such as Temperature², Humidity²)
+- Model: Linear Regression
+- Evaluation metrics:
+  - R² Score
+  - Mean Squared Error (MSE)
+ 
+---
+
+## Results
+- Achieved high model accuracy: **R² ≈ 0.99**
+- Demonstrated ability to capture nonlinear relationships between environmental factors and yield
 
 ---
 
-## 📈 Results
-- R² Score: ~0.99
-- Strong influence: Soil Quality
-- Negative effect: Temperature
+##  Relevance to Digital Farming
+This project demonstrates how machine learning can be used to:
+- Predict crop yield
+- Support precision agriculture
+- Enable data-driven farming decisions
 
 ---
-## 📈 Model Performance
+
+## Technologies Used
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+
+---
+
+## Model Performance
 
 ![Model Result](Actual_vs_Predicted.png)
-
----
-
-## 🛠 Tools
-Python, Pandas, NumPy, Matplotlib, Scikit-learn
 
 ---
 
