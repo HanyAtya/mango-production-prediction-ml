@@ -5,7 +5,7 @@
 ## Overview
 This project aims to predict mango production based on environmental factors such as temperature, humidity, and rainfall using machine learning techniques.
 
-It represents an application of data science in **Digital Agriculture (Smart Farming) ** to support decision-making and optimize crop yield.
+It represents an application of data science in **Digital Agriculture (Smart Farming)** to support decision-making and optimize crop yield.
 
 ---
 
@@ -20,7 +20,7 @@ Farmers need data-driven tools to:
 ---
 
 ## Dataset
-- Synthetic dataset (for learning purposes)
+- Synthetic dataset (generated to simulate real environmental conditions affecting mango production)
   
 - Features:
   
@@ -36,7 +36,8 @@ Farmers need data-driven tools to:
 ##  Methodology
 - Data preprocessing and analysis using Pandas
 - Feature engineering (e.g., nonlinear relationships such as Temperature², Humidity²)
-- Model: Linear Regression
+- Model: Linear Regression (baseline model)
+- Train-test split applied to evaluate model performance
 - Evaluation metrics:
   - R² Score
   - Mean Squared Error (MSE)
@@ -44,7 +45,7 @@ Farmers need data-driven tools to:
 ---
 
 ## Results
-- Achieved high model accuracy: **R² ≈ 0.99**
+- Achieved high model accuracy: **R² ≈ 0.99 on test data**
 - Demonstrated ability to capture nonlinear relationships between environmental factors and yield
 
 ---
@@ -69,6 +70,20 @@ This project demonstrates how machine learning can be used to:
 ## Model Performance
 
 ![Model Result](Actual_vs_Predicted.png)
+
+---
+
+## Future Improvements
+
+- Use real-world agricultural datasets
+- Integrate IoT-based sensor data
+- Deploy as a decision-support tool for farmers
+
+---
+
+## Conclusion
+
+- This project highlights the potential of machine learning in improving agricultural productivity and supports the transition toward data-driven and smart farming systems
 
 ---
 
