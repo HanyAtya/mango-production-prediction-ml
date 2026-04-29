@@ -26,7 +26,9 @@ Farmers need data-driven tools to:
   
   - Temperature
   - Humidity
-  - Rainfall
+  - Soil Quality
+  - Fertilizer
+  - Noise
     
 - Target:
   - Mango yield
